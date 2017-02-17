@@ -24,6 +24,7 @@ import java.sql.SQLException;
 import java.awt.*;
 
 public class JDBCTest {
+	//comment
 	public static void main(String[] args) throws SQLException,ClassNotFoundException{
 		//Class.forName("oracle.jdbc.driver.OracleDriver");
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl2","c##mithun","Connect14");
